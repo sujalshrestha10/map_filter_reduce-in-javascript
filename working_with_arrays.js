@@ -18,3 +18,27 @@ let words = ["apple", "banana", "cherry"];
 let capital = words.map((words) => words.toUpperCase());
 console.log(words);
 console.log(capital);
+
+//FILTERS
+// here  we are going to filter out any number that is divisible by two and not even
+const arr = [1, 2, 3, 4, 5, 6, 7];
+function even(arr) {
+  return arr % 2;
+}
+console.log(arr.filter(even));
+
+//REDUCE
+//Example (Finding the Sum of Numbers):
+
+const numberss = [1, 2, 3, 4, 5];
+
+const sum = numberss.reduce(
+  (accumulator, numberss) => accumulator + numberss,
+  0
+); // Initial value of 0 for summation
+
+console.log(sum); // Output: 15
+/*Explanation:
+
+The callback function (accumulator, number) => accumulator + number adds the current number to the accumulator (sum).
+The initial value 0 is provided for the accumulator, starting the summation from zero.*/
