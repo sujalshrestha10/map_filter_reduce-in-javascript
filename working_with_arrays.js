@@ -43,3 +43,6 @@ console.log(sum); // Output: 15
 The callback function (accumulator, number) => accumulator + number adds the current number to the accumulator (sum).
 The initial value 0 is provided for the accumulator, starting the summation from zero.*/
 //askfj
+//safioi
+//igai
+//alsigjaoiegjiojgojgreaoijgaiegoiehgagisgdghoangoaei
